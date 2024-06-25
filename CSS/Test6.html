@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 500px;
+            height: 500px;
+            /* background-color: aqua; */
+            margin: 0 auto;
+        }
+        .box1{
+            width: 100%;
+            height: 10%;
+            background-color: aquamarine;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        .box2{
+            width: 100%;
+            height: 60%;
+            /* background-color: blueviolet; */
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin: 10px 0px;
+        }
+        .box .box2 .box2-left{
+            width: 35%;
+            height: 100%;
+            background-color: brown;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin: 10px 10px 10px 10px;
+        }
+        .box .box2 .box2-right{
+            width:65%;
+            height: 100%;
+            /* background-color: green; */
+            /* margin: 10px 10px 10px 10px; */
+        }
+        .box2-right .box2-right-up{
+            width: 100%;
+            height: 50%;
+            background-color: rgb(43, 165, 226);
+            align-items: center;
+            display: flex;
+        }
+        .box2-right .box2-right-down{
+            width: 100%;
+            height: 50%;
+            /* background-color: rgb(43, 226, 58); */
+            display: flex;
+        }
+        .box2-right .box2-right-down .left{
+            width: 50%;
+            height: 100%;
+            background-color: aqua;
+            align-items: center;
+            display: flex;
+        }
+        .box2-right .box2-right-down .right{
+            width: 50%;
+            height: 100%;
+            background-color:chocolate;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            /* margin: 10px 10px; */
+        }
+        .box .box3{
+            width: 100%;
+            height: 10%;
+            background-color: rgb(250, 147, 245);
+            align-items: center;
+            display: flex;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box1">
+            <h1>HTML</h1>
+        </div>
+        <div class="box2">
+            <div class="box2-left">
+                <h1>HAHA</h1>
+            </div>
+            <div class="box2-right">
+                <div class="box2-right-up">
+                    <h1>BBY</h1>
+                </div>
+                <div class="box2-right-down">
+                    <div class="left">
+                        <h1>PRETTY</h1>
+                    </div>
+                    <div class="right">
+                        <h1>CAMBO</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box3">
+            <h1>JPG</h1>
+        </div>
+    </div>
+</body>
+</html>
